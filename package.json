@@ -1,0 +1,14 @@
+{
+  "name": "onion-whisper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small, end-to-end encrypted chat room exposed as a Tor onion service.",
+  "scripts": {
+    "start": "node src/cli.js host",
+    "host": "node src/cli.js host",
+    "check": "node --check src/cli.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}
