@@ -1,2 +1,2 @@
 # TorChat
-js a normal chatting app
+js a normal chatting platform
